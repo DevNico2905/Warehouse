@@ -7,28 +7,20 @@
       "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logica\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logica\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logica\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logica\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logica\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logica\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,36 +30,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Manager.cs",
               "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Manager.cs",
               "RelativeDocumentMoniker": "Logic\\Manager.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Manager.cs",
               "RelativeToolTip": "Logic\\Manager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T18:52:01.677Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Administrador.cs",
+              "RelativeDocumentMoniker": "Logica\\Administrador.cs",
+              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Administrador.cs",
+              "RelativeToolTip": "Logica\\Administrador.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswG0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T19:10:04.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Warehouse.cs",
               "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Warehouse.cs",
               "RelativeDocumentMoniker": "Logic\\Warehouse.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Warehouse.cs",
               "RelativeToolTip": "Logic\\Warehouse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T18:45:57.578Z"
+              "WhenOpened": "2024-07-18T16:10:02.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Product.cs",
               "RelativeDocumentMoniker": "Logic\\Product.cs",
@@ -75,44 +82,8 @@
               "RelativeToolTip": "Logic\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T18:38:24.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Producto.cs",
-              "RelativeDocumentMoniker": "Logica\\Producto.cs",
-              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Producto.cs",
-              "RelativeToolTip": "Logica\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T19:10:04.448Z",
+              "WhenOpened": "2024-07-16T18:38:24.122Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Administrador.cs",
-              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Administrador.cs",
-              "RelativeDocumentMoniker": "Logica\\Administrador.cs",
-              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Administrador.cs",
-              "RelativeToolTip": "Logica\\Administrador.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAowMIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T19:10:04.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Bodega.cs",
-              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Bodega.cs",
-              "RelativeDocumentMoniker": "Logica\\Bodega.cs",
-              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Bodega.cs",
-              "RelativeToolTip": "Logica\\Bodega.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T19:10:04.446Z"
             },
             {
               "$type": "Document",
@@ -122,7 +93,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAArwCAAAAARAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAwwCgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T19:10:04.447Z",
               "EditorCaption": ""
