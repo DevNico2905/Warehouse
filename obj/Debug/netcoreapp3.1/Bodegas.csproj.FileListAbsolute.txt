@@ -11,3 +11,17 @@ C:\Users\berna\Desktop\Stiven\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.csproj.Cor
 C:\Users\berna\Desktop\Stiven\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.dll
 C:\Users\berna\Desktop\Stiven\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.pdb
 C:\Users\berna\Desktop\Stiven\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.genruntimeconfig.cache
+D:\MyCode\MyProjects\Bodegas\bin\Debug\netcoreapp3.1\Bodegas.exe
+D:\MyCode\MyProjects\Bodegas\bin\Debug\netcoreapp3.1\Bodegas.deps.json
+D:\MyCode\MyProjects\Bodegas\bin\Debug\netcoreapp3.1\Bodegas.runtimeconfig.json
+D:\MyCode\MyProjects\Bodegas\bin\Debug\netcoreapp3.1\Bodegas.runtimeconfig.dev.json
+D:\MyCode\MyProjects\Bodegas\bin\Debug\netcoreapp3.1\Bodegas.dll
+D:\MyCode\MyProjects\Bodegas\bin\Debug\netcoreapp3.1\Bodegas.pdb
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.AssemblyInfoInputs.cache
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.AssemblyInfo.cs
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.csproj.CoreCompileInputs.cache
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.sourcelink.json
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.dll
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.pdb
+D:\MyCode\MyProjects\Bodegas\obj\Debug\netcoreapp3.1\Bodegas.genruntimeconfig.cache

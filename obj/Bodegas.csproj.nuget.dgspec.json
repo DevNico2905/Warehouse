@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berna\\Desktop\\Stiven\\Bodegas\\Bodegas.csproj": {}
+    "D:\\MyCode\\MyProjects\\Bodegas\\Bodegas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berna\\Desktop\\Stiven\\Bodegas\\Bodegas.csproj": {
+    "D:\\MyCode\\MyProjects\\Bodegas\\Bodegas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berna\\Desktop\\Stiven\\Bodegas\\Bodegas.csproj",
+        "projectUniqueName": "D:\\MyCode\\MyProjects\\Bodegas\\Bodegas.csproj",
         "projectName": "Bodegas",
-        "projectPath": "C:\\Users\\berna\\Desktop\\Stiven\\Bodegas\\Bodegas.csproj",
-        "packagesPath": "C:\\Users\\berna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berna\\Desktop\\Stiven\\Bodegas\\obj\\",
+        "projectPath": "D:\\MyCode\\MyProjects\\Bodegas\\Bodegas.csproj",
+        "packagesPath": "C:\\Users\\Nicolas Bernal\\.nuget\\packages\\",
+        "outputPath": "D:\\MyCode\\MyProjects\\Bodegas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\berna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas Bernal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

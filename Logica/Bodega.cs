@@ -8,8 +8,7 @@ namespace Bodegas.Logica
     {
         public int idBodega { set; get; }
         public string nombreBodega { set; get; }
-
-         public List<Producto> inventario { set; get; } = new List<Producto>();
+        public List<Producto> inventario { set; get; } = new List<Producto>();
 
     }
 }
