@@ -145,24 +145,92 @@ namespace Bodegas.Logic
                 switch (selectMenu)
                 {
                     case 1:
-                        /*CrearProducto(SelectedWarehouse);*/
+                        CreateProduct(SelectedWarehouse);
                         break;
                     case 2:
-                        Console.WriteLine($"\tInventario Bodega: {SelectedWarehouse.warehouseName}\n");
-                        Console.WriteLine("Cantidad     Nombre");
+                        Console.WriteLine($"\tWarehouse Inventory: {SelectedWarehouse.warehouseName}\n");
+                        Console.WriteLine("Amount     Name");
                         Console.WriteLine("------------------------");
+
+/*DO THE CHANGE IN THE CONTENT OF THE FOREACH*/
+
                         foreach (var producto in SelectedWarehouse.inventory)
                         {
-                            Console.WriteLine($"   {producto.cantidadProducto}          {producto.nombreProducto}");
+                            Console.WriteLine($"   {producto.productStock}          {producto.productName}");
                         }
-                        Console.Write("\nPresione Enter para continuar...");
-                        Console.ReadLine();
+                        Console.Write("\nPress Enter to restart...");
+                        ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+                        while (keyInfo.Key != ConsoleKey.Enter)
+                        {
+                            Console.Write("\nPress Enter to restart...");
+                            keyInfo = Console.ReadKey(true);
+                        }
+                        Console.Clear();
                         break;
                     case 3:
                         flag = false;
                         break;
                     default:
                         break;
+                }
+                Console.Clear();
+            }
+        }
+        private void CreateProduct(Warehouse SelectedWarehouse)
+        {
+            //El usuario ingresa el nombre del producto
+            Console.Write("Enter the product name: ");
+            string ProductName = Console.ReadLine();
+
+            Product selectedProduct = ProductList.FirstOrDefault(x => x.productName.ToLower() == ProductName.ToLower());
+
+            // Vamos a evaluar si el producto ya existe.
+
+            if (selectedProduct != null)
+            {
+                // Si esto se ejecuta es decir que el producto ya existe.
+                // Pedimos al usuario la cantidada de elementos a añadir y los agregamos a cant. existente.
+                Console.Write("Enter the amount of the product: ");
+                int productAmount = Convert.ToInt32(Console.ReadLine());
+                selectedProduct.productStock = selectedProduct.productStock + productAmount;
+
+                Console.WriteLine("\nThis product already exists in inventory, so we have updated the stock.");
+                Console.Write("\nPress Enter to continue...");
+                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+                while (keyInfo.Key != ConsoleKey.Enter)
+                {
+                    Console.Write("\nPress Enter to continue...");
+                    keyInfo = Console.ReadKey(true);
+                }
+                Console.Clear();
+            }
+            else
+            {
+                //El usuario ingresa la cantidad del producto.
+                Console.Write("Enter the amount of the product: ");
+                int productAmount = Convert.ToInt32(Console.ReadLine());
+
+                //Creamos el producto y asiganamos nombre, cantidad y ID
+                Product product = new Product();
+                product.productName = ProductName;
+                product.productStock = productAmount;
+                product.productId = 0/*idProducto()*/;
+
+                //Agrega el producto a las listas.
+                ProductList.Add(product);
+                SelectedWarehouse.inventory.Add(product);
+                //SelectedWarehouse.inventory.Add(product);
+
+                Console.Write("\n¡Your product has been created successfully!");
+                Console.Write("\nPress Enter to continue...");
+                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+
+                while (keyInfo.Key != ConsoleKey.Enter)
+                {
+                    Console.Write("\nPress Enter to continue...");
+                    keyInfo = Console.ReadKey(true);
                 }
                 Console.Clear();
             }

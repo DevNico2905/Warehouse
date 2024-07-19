@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bodegas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3471832c9000979f647bfddf916aa1b7b64c0338")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6898bb4807b608c47ea5098eb65747215fa6a746")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bodegas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bodegas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

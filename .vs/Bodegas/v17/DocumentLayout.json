@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\MyCode\\MyProjects\\Bodegas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logica\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logica\\bodega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logica\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logica\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logica\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logica\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:logic\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79EC2805-8664-4262-8205-05443AB7601A}|Bodegas.csproj|d:\\mycode\\myprojects\\bodegas\\logic\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,31 +34,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Manager.cs",
-              "RelativeDocumentMoniker": "Logic\\Manager.cs",
-              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Manager.cs",
-              "RelativeToolTip": "Logic\\Manager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKsAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Bodega.cs",
+              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Bodega.cs",
+              "RelativeDocumentMoniker": "Logica\\Bodega.cs",
+              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Bodega.cs",
+              "RelativeToolTip": "Logica\\Bodega.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T18:52:01.677Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-07-19T17:28:09.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Administrador.cs",
               "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Administrador.cs",
               "RelativeDocumentMoniker": "Logica\\Administrador.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logica\\Administrador.cs",
               "RelativeToolTip": "Logica\\Administrador.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswG0AAAA7AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T19:10:04.414Z",
               "EditorCaption": ""
@@ -67,35 +70,54 @@
               "RelativeDocumentMoniker": "Logic\\Warehouse.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Warehouse.cs",
               "RelativeToolTip": "Logic\\Warehouse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T16:10:02.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Product.cs",
               "RelativeDocumentMoniker": "Logic\\Product.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Product.cs",
               "RelativeToolTip": "Logic\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T18:38:24.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAwwCgAAAAvAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-09T19:10:04.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Manager.cs",
+              "RelativeDocumentMoniker": "Logic\\Manager.cs",
+              "ToolTip": "D:\\MyCode\\MyProjects\\Bodegas\\Logic\\Manager.cs",
+              "RelativeToolTip": "Logic\\Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T18:52:01.677Z",
               "EditorCaption": ""
             }
           ]
