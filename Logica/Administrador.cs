@@ -156,7 +156,7 @@ namespace Bodegas.Logica
             Console.Write("Ingrese el nombre del producto: ");
             string nombreProducto = Console.ReadLine();
 
-            Producto productoSelec = ListaProductos.FirstOrDefault(x => x.nombreProducto.ToLower() == nombreProducto.ToLower());
+            Producto productoSelec = bodega.inventario.FirstOrDefault(x => x.nombreProducto.ToLower() == nombreProducto.ToLower());
 
             // Vamos a evaluar si el producto ya existe.
 
@@ -185,7 +185,7 @@ namespace Bodegas.Logica
                 producto.idProducto = idProducto();
 
                 //Agrega el producto a las listas.
-                ListaProductos.Add(producto);
+                //ListaProductos.Add(producto);
                 bodega.inventario.Add(producto);
 
                 Console.Write("\n¡Su producto se ha creado con exito!");

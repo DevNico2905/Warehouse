@@ -61,7 +61,7 @@ namespace Bodegas.Logic
 
             //Assigns the name and Id to the object.
             warehouse.warehouseName = warehouseName;
-            warehouse.warehouseId = 0/*idBodega()*/;
+            warehouse.warehouseId = WarehouseId();
             warehouseList.Add(warehouse);
 
             Console.WriteLine($"\n¡The warehouse '{warehouseName}' has been successfully created!");
@@ -128,7 +128,7 @@ namespace Bodegas.Logic
 
             while (flag)
             {
-                Console.WriteLine($"Warehouse menu: {SelectedWarehouse.warehouseName}");
+                Console.WriteLine($"\tWarehouse menu: {SelectedWarehouse.warehouseName}");
                 Console.WriteLine("\n1. Create a product.");
                 Console.WriteLine("2. Show inventory.");
                 Console.WriteLine("3. Back to Main Menu.");
@@ -148,11 +148,10 @@ namespace Bodegas.Logic
                         CreateProduct(SelectedWarehouse);
                         break;
                     case 2:
+                        // Warehouse Empty
                         Console.WriteLine($"\tWarehouse Inventory: {SelectedWarehouse.warehouseName}\n");
-                        Console.WriteLine("Amount     Name");
+                        Console.WriteLine("  Amount     Name");
                         Console.WriteLine("------------------------");
-
-/*DO THE CHANGE IN THE CONTENT OF THE FOREACH*/
 
                         foreach (var producto in SelectedWarehouse.inventory)
                         {
@@ -183,7 +182,7 @@ namespace Bodegas.Logic
             Console.Write("Enter the product name: ");
             string ProductName = Console.ReadLine();
 
-            Product selectedProduct = ProductList.FirstOrDefault(x => x.productName.ToLower() == ProductName.ToLower());
+            Product selectedProduct = SelectedWarehouse.inventory.FirstOrDefault(x => x.productName.ToLower() == ProductName.ToLower());
 
             // Vamos a evaluar si el producto ya existe.
 
@@ -216,14 +215,13 @@ namespace Bodegas.Logic
                 Product product = new Product();
                 product.productName = ProductName;
                 product.productStock = productAmount;
-                product.productId = 0/*idProducto()*/;
+                product.productId = ProductId();
 
                 //Agrega el producto a las listas.
-                ProductList.Add(product);
+                //ProductList.Add(product);
                 SelectedWarehouse.inventory.Add(product);
-                //SelectedWarehouse.inventory.Add(product);
 
-                Console.Write("\n¡Your product has been created successfully!");
+                Console.WriteLine("\n¡Your product has been created successfully!");
                 Console.Write("\nPress Enter to continue...");
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
@@ -233,6 +231,30 @@ namespace Bodegas.Logic
                     keyInfo = Console.ReadKey(true);
                 }
                 Console.Clear();
+            }
+        }
+        private int ProductId()
+        {
+            try
+            {
+                int id = ProductList.Max(x => x.productId) + 1;
+                return id;
+            }
+            catch (Exception)
+            {
+                return 1;
+            }
+        }
+        private int WarehouseId()
+        {
+            try
+            {
+                int id = warehouseList.Max(x => x.warehouseId) + 1;
+                return id;
+            }
+            catch (Exception)
+            {
+                return 1;
             }
         }
     }
