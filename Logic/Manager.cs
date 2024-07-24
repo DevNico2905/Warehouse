@@ -40,7 +40,7 @@ namespace Bodegas.Logic
                         EnterWarehouse();
                         break;
                     case 3:
-                        Console.WriteLine("¡Hasta Luego!");
+                        Console.WriteLine("¡See you soon...!");
                         flag = false;
                         break;
                     default:
@@ -65,12 +65,12 @@ namespace Bodegas.Logic
             warehouseList.Add(warehouse);
 
             Console.WriteLine($"\n¡The warehouse '{warehouseName}' has been successfully created!");
-            Console.Write("\nPress Enter to restart");
+            Console.Write("\nPress Enter to return");
             ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
             while (keyInfo.Key != ConsoleKey.Enter)
             {
-                Console.Write("\nPress Enter to restart");
+                Console.Write("\nPress Enter to return");
                 keyInfo = Console.ReadKey(true);
             }
             Console.Clear();
@@ -150,19 +150,26 @@ namespace Bodegas.Logic
                     case 2:
                         // Warehouse Empty
                         Console.WriteLine($"\tWarehouse Inventory: {SelectedWarehouse.warehouseName}\n");
-                        Console.WriteLine("  Amount     Name");
+                        Console.WriteLine("  Amount       Name");
                         Console.WriteLine("------------------------");
 
                         foreach (var producto in SelectedWarehouse.inventory)
                         {
-                            Console.WriteLine($"   {producto.productStock}          {producto.productName}");
+                            if (producto.productStock < 10)
+                            {
+                                Console.WriteLine($"    0{producto.productStock}         {producto.productName}");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"    {producto.productStock}         {producto.productName}");
+                            }
                         }
-                        Console.Write("\nPress Enter to restart...");
+                        Console.Write("\nPress Enter to return...");
                         ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
                         while (keyInfo.Key != ConsoleKey.Enter)
                         {
-                            Console.Write("\nPress Enter to restart...");
+                            Console.Write("\nPress Enter to return...");
                             keyInfo = Console.ReadKey(true);
                         }
                         Console.Clear();
@@ -178,6 +185,7 @@ namespace Bodegas.Logic
         }
         private void CreateProduct(Warehouse SelectedWarehouse)
         {
+            Console.WriteLine("\t...creating product...\n");
             //El usuario ingresa el nombre del producto
             Console.Write("Enter the product name: ");
             string ProductName = Console.ReadLine();
@@ -191,7 +199,13 @@ namespace Bodegas.Logic
                 // Si esto se ejecuta es decir que el producto ya existe.
                 // Pedimos al usuario la cantidada de elementos a añadir y los agregamos a cant. existente.
                 Console.Write("Enter the amount of the product: ");
-                int productAmount = Convert.ToInt32(Console.ReadLine());
+                int productAmount;
+
+                while (!int.TryParse(Console.ReadLine(), out productAmount) || (productAmount <= 0))
+                {
+                    Console.Write("Enter the amount of the product: ");
+                }
+
                 selectedProduct.productStock = selectedProduct.productStock + productAmount;
 
                 Console.WriteLine("\nThis product already exists in inventory, so we have updated the stock.");
@@ -209,7 +223,12 @@ namespace Bodegas.Logic
             {
                 //El usuario ingresa la cantidad del producto.
                 Console.Write("Enter the amount of the product: ");
-                int productAmount = Convert.ToInt32(Console.ReadLine());
+                int productAmount;
+
+                while (!int.TryParse(Console.ReadLine(), out productAmount) || (productAmount <= 0))
+                {
+                    Console.Write("Enter the amount of the product: ");
+                }
 
                 //Creamos el producto y asiganamos nombre, cantidad y ID
                 Product product = new Product();

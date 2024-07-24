@@ -9,9 +9,9 @@ namespace Bodegas
     {
         static void Main(string[] args)
         {
-            /*A food transportation company wants to implement software that:
-            1. Can create food warehouses
-            2. Indicate the quantity of food and beverages in each warehouse.
+            /*A transportation company wants to implement software that:
+            1. Can create warehouses.
+            2. Indicate the quantity in each warehouse.
             3. Be able to list the warehouses, and when selecting one, have the option to view the inventory (step 2),
             or create a new product for that warehouse.
             If the product name already exists in inventory, what you need to do is update the stock (quantity)
@@ -22,7 +22,7 @@ namespace Bodegas
 
                 Console.WriteLine("\t¡Warehouse management / Gestión de bodegas!\n");
 
-                Console.WriteLine("Interface language:");
+                Console.WriteLine("Interface language:\n");
                 Console.WriteLine(" 1.English.");
                 Console.WriteLine(" 2.Spanish.");
                 Console.Write("\nSelect your language (1 or 2): ");
